@@ -45,13 +45,11 @@ const computedDescription = description ? description : 'Opinionated GitHub temp
 		<ViewTransitions />
 
 	</head>
-	<body>
-		<main class:list={[
-			className,
-			'max-h-[100dvh]',
-		]}>
-			<slot />
-		</main>
+	<body class:list={[
+		className,
+		'max-h-[100dvh]',
+	]}>
+		<slot />
 		<slot name="dialog" />
 	</body>
 </html>
