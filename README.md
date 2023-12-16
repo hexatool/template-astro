@@ -25,6 +25,7 @@
 - Astro ViewTransitions enabled by default.
 - A bunch of useful astro plugins for SEO and performance.
 - Personalized fonts with `@fontsource`.
+- Awesoe icons from `lucide`
 
 ## Hexatool Code Quality Standards
 

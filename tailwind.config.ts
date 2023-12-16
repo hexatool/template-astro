@@ -1,5 +1,5 @@
-import defaultTheme from 'tailwindcss/defaultTheme';
 import type { Config } from 'tailwindcss';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 const config: Config = {
 	darkMode: 'media',
@@ -7,7 +7,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["InterVariable", "Inter", ...defaultTheme.fontFamily.sans],
+				sans: ['InterVariable', 'Inter', ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
