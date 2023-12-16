@@ -16,12 +16,13 @@
   - [ ] `LICENSE`
 
 ## What includes
- - Bun as runtime and package manager. It's incredibly fast.
- - TypeScript configured by default. Here we don't play with JavaScript.
- - `@hexatool/eslint-config` for best standards and quality code.
- - Renovate configuration. Keep your dependencies up to date.
- - Style your components with TailwindCSS.
- - A bunch of useful astro plugins for SEO and performance.
+
+- Bun as runtime and package manager. It's incredibly fast.
+- TypeScript configured by default. Here we don't play with JavaScript.
+- `@hexatool/eslint-config` for best standards and quality code.
+- Renovate configuration. Keep your dependencies up to date.
+- Style your components with TailwindCSS.
+- A bunch of useful astro plugins for SEO and performance.
 
 ## Hexatool Code Quality Standards
 
