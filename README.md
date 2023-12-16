@@ -24,6 +24,7 @@
 - Style your components with TailwindCSS.
 - Astro ViewTransitions enabled by default.
 - A bunch of useful astro plugins for SEO and performance.
+- Personalized fonts with `@fontsource`.
 
 ## Hexatool Code Quality Standards
 

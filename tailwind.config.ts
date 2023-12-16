@@ -1,3 +1,4 @@
+import defaultTheme from 'tailwindcss/defaultTheme';
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
@@ -5,7 +6,9 @@ const config: Config = {
 	content: ['./src/**/*.{js,ts,jsx,tsx,mdx,astro}'],
 	theme: {
 		extend: {
-			// Tailwind css extensions
+			fontFamily: {
+				sans: ["InterVariable", "Inter", ...defaultTheme.fontFamily.sans],
+			},
 		},
 	},
 };
