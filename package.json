@@ -1,0 +1,65 @@
+{
+	"name": "@hexatool/astro-template",
+	"version": "0.0.0",
+	"author": "Hexatool",
+	"description": "A template for Astro projects",
+	"keywords": [
+		"astro",
+		"eslint",
+		"prettier",
+		"tailwindcss",
+		"typescript"
+	],
+	"homepage": "https://github.com/hexatool/astro-template",
+	"bugs": {
+		"url": "https://github.com/hexatool/astro-template"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:hexatool/astro-template.git"
+	},
+	"license": "PRIVATE",
+	"files": [
+		"dist"
+	],
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "astro build",
+		"build:types": "astro sync",
+		"dev": "astro dev",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"preview": "astro preview",
+		"typecheck": "astro check && tsc --noEmit"
+	},
+	"dependencies": {
+		"@fontsource/passion-one": "5.0.18",
+		"astro": "4.0.6",
+		"astro-seo": "0.8.0",
+		"lucide-astro": "0.297.0"
+	},
+	"devDependencies": {
+		"@astrojs/check": "0.3.3",
+		"@astrojs/prefetch": "0.4.1",
+		"@astrojs/sitemap": "3.0.3",
+		"@astrojs/tailwind": "5.0.3",
+		"@astrojs/ts-plugin": "^1.3.1",
+		"@hexatool/eslint-config": "2.2.3",
+		"astro-compress": "2.2.5",
+		"astro-eslint-parser": "0.16.0",
+		"astro-robots-txt": "1.0.0",
+		"astro-webmanifest": "1.0.0",
+		"eslint": "8.56.0",
+		"eslint-plugin-astro": "0.31.0",
+		"eslint-plugin-jsx-a11y": "6.8.0",
+		"tailwindcss": "3.3.6",
+		"typescript": "5.3.3"
+	},
+	"trustedDependencies": [
+		"sharp"
+	],
+	"engines": {
+		"node": "20"
+	}
+}
