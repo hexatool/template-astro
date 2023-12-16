@@ -46,6 +46,7 @@
 		"@astrojs/tailwind": "5.0.3",
 		"@astrojs/ts-plugin": "^1.3.1",
 		"@hexatool/eslint-config": "2.2.3",
+		"@hexatool/tsconfig": "20.0.1",
 		"astro-compress": "2.2.5",
 		"astro-eslint-parser": "0.16.0",
 		"astro-robots-txt": "1.0.0",
