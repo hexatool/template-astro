@@ -37,7 +37,7 @@
 		"@fontsource/inter": "5.0.16",
 		"astro": "4.0.6",
 		"astro-seo": "0.8.0",
-		"lucide-astro": "0.297.0"
+		"lucide-astro": "0.298.0"
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.3.3",
