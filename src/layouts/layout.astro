@@ -1,0 +1,87 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import { SEO } from "astro-seo";
+
+
+interface Props {
+	title?: string;
+	description?: string;
+	className?: string;
+}
+
+const {title, description, className} = Astro.props;
+const computedTitle = title ? `${title} | Astro` : 'Astro | Basic template';
+const computedDescription = description ? description : 'Opinionated GitHub template for astro projects.';
+---
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+
+
+		<SEO
+			title={computedTitle}
+			description={computedDescription}
+			openGraph={{
+				basic: {
+					title: 'Astro | Basic template',
+					type: "website",
+					image: "/images/og.webp",
+				}
+			}}
+			twitter={{
+				creator: "@Hexatool"
+			}}
+		/>
+
+		<meta name="theme-color" content="#FEFFFA" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="#001915" media="(prefers-color-scheme: dark)">
+		<meta name="generator" content={Astro.generator} />
+
+		<link rel="sitemap" href="/sitemap-index.xml">
+
+		<ViewTransitions />
+
+	</head>
+	<body>
+		<main class:list={[
+			className,
+			'max-h-[100dvh]',
+		]}>
+			<slot />
+		</main>
+		<slot name="dialog" />
+	</body>
+</html>
+
+<style is:global>
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+		scrollbar-gutter: stable both-edges;
+    }
+    img {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+
+
+        user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+	.balance {
+		text-wrap: balance;
+	}
+    p {
+		max-width: 75ch;
+	}
+</style>
