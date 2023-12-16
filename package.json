@@ -19,10 +19,10 @@
 		"url": "git@github.com:hexatool/astro-template.git"
 	},
 	"license": "PRIVATE",
+	"private": true,
 	"files": [
 		"dist"
 	],
-	"private": true,
 	"type": "module",
 	"scripts": {
 		"build": "astro build",
@@ -51,6 +51,7 @@
 		"astro-eslint-parser": "0.16.0",
 		"astro-robots-txt": "1.0.0",
 		"astro-webmanifest": "1.0.0",
+		"bun-types": "1.0.18",
 		"eslint": "8.56.0",
 		"eslint-plugin-astro": "0.31.0",
 		"eslint-plugin-jsx-a11y": "6.8.0",
