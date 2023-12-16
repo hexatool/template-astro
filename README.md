@@ -22,6 +22,7 @@
 - `@hexatool/eslint-config` for best standards and quality code.
 - Renovate configuration. Keep your dependencies up to date.
 - Style your components with TailwindCSS.
+- Astro ViewTransitions enabled by default.
 - A bunch of useful astro plugins for SEO and performance.
 
 ## Hexatool Code Quality Standards
