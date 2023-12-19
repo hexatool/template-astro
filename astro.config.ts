@@ -1,6 +1,7 @@
 import prefetch from '@astrojs/prefetch';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
+import preact from '@astrojs/preact';
 import pwa from '@vite-pwa/astro';
 import { defineConfig } from 'astro/config';
 import compress from 'astro-compress';
@@ -11,6 +12,7 @@ export default defineConfig({
 	// TODO: Replace me
 	site: 'https://astro-template.com',
 	integrations: [
+		preact(),
 		sitemap(),
 		robotsTxt(),
 		webmanifest({
