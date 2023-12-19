@@ -9,10 +9,10 @@ const $maxCount = persistentAtom<string>('max', '0', {
 });
 
 export interface CountState {
-	max: number;
-	value: number;
 	decrement: () => void;
 	increment: () => void;
+	max: number;
+	value: number;
 }
 
 export default function useCountState(): CountState {
