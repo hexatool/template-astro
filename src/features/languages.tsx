@@ -1,8 +1,7 @@
 import { useStore } from '@nanostores/preact';
-import { type JSX } from 'preact';
-import { i18n } from '../state/locale';
-import useLocaleState from '../state/locale';
+import type { JSX } from 'preact';
 
+import useLocaleState, { i18n } from '../state/locale';
 
 const messages = i18n('lang', {
 	spanish: 'Spanish',
@@ -11,7 +10,7 @@ const messages = i18n('lang', {
 });
 
 const Languages = (): JSX.Element => {
-	const {setLocale} = useLocaleState();
+	const { setLocale } = useLocaleState();
 	const t = useStore(messages);
 
 	return (

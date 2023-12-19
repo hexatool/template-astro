@@ -25,8 +25,9 @@
 - **Renovate**: keep your dependencies up to date.
 
 ### 🗒️ Web framework
+
 - **Preact**: A fast 3kB alternative to React with the same modern API.
-- **Nanostores**: A tiny (less than 1kb) state manager inspired by Redux. It comes with the following plugins: 
+- **Nanostores**: A tiny (less than 1kb) state manager inspired by Redux. It comes with the following plugins:
   - `@nanostores/i18n`: Internationalization plugin.
   - `@nanostores/persistent`: Persist your state in localStorage.
   - `@nanostores/preact`: Preact bindings.
