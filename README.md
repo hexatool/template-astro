@@ -21,7 +21,7 @@
 
 - **Bun**: runtime and package manager. It's incredibly fast.
 - **TypeScript**: configured by default. Here we don't play with JavaScript.
-- **ESLint**: for best standards and quality code. 
+- **ESLint**: for best standards and quality code.
 - **Renovate**: keep your dependencies up to date.
 
 ### 🎨 Styling
@@ -34,7 +34,7 @@
 
 - ViewTransitions enabled by default.
 - A bunch of useful astro plugins for SEO and performance.
-  - `@astrojs/prefetch`: Prefetch links for faster navigation. 
+  - `@astrojs/prefetch`: Prefetch links for faster navigation.
   - `@astrojs/sitemap`: Generates a sitemap based on your pages.
   - `@vite-pwa/astro`: PWA support for your app.
   - `astro-compress`: Compress your HTML, CSS and JS.
