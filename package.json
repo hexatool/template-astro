@@ -1,5 +1,5 @@
 {
-	"name": "@hexatool/astro-template",
+	"name": "@hexatool/template-astro",
 	"version": "0.0.0",
 	"author": "Hexatool",
 	"description": "A template for Astro projects",
@@ -10,13 +10,13 @@
 		"tailwindcss",
 		"typescript"
 	],
-	"homepage": "https://github.com/hexatool/astro-template",
+	"homepage": "https://github.com/hexatool/template-astro",
 	"bugs": {
-		"url": "https://github.com/hexatool/astro-template"
+		"url": "https://github.com/hexatool/template-astro"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:hexatool/astro-template.git"
+		"url": "git@github.com:hexatool/template-astro.git"
 	},
 	"license": "PRIVATE",
 	"private": true,
