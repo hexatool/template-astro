@@ -1,6 +1,7 @@
 import prefetch from '@astrojs/prefetch';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
+import pwa from '@vite-pwa/astro';
 import { defineConfig } from 'astro/config';
 import compress from 'astro-compress';
 import robotsTxt from 'astro-robots-txt';
@@ -35,5 +36,12 @@ export default defineConfig({
 		prefetch(),
 		compress(),
 		tailwind(),
+		pwa({
+			includeAssets: ['fonts/**/*.otf', 'translations/**/*.json', 'fonts/**/*.woff2', '**/*.svg', '**/*.png'],
+			registerType: 'autoUpdate',
+			workbox: {
+				globPatterns: ['**/*.{js,css,html,svg,png}'],
+			},
+		}),
 	],
 });
