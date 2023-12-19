@@ -17,15 +17,29 @@
 
 ## What includes
 
-- Bun as runtime and package manager. It's incredibly fast.
-- TypeScript configured by default. Here we don't play with JavaScript.
-- `@hexatool/eslint-config` for best standards and quality code.
-- Renovate configuration. Keep your dependencies up to date.
-- Style your components with TailwindCSS.
-- Astro ViewTransitions enabled by default.
+### 🛠️ Build tools
+
+- **Bun**: runtime and package manager. It's incredibly fast.
+- **TypeScript**: configured by default. Here we don't play with JavaScript.
+- **ESLint**: for best standards and quality code. 
+- **Renovate**: keep your dependencies up to date.
+
+### 🎨 Styling
+
+- **TailwindCSS**: Style your components with the best utility-first CSS framework.
+- **Fontsource**: Personalized fonts with ease.
+- **Lucide**: Awesome icons.
+
+### 🚀 Astro
+
+- ViewTransitions enabled by default.
 - A bunch of useful astro plugins for SEO and performance.
-- Personalized fonts with `@fontsource`.
-- Awesome icons from `lucide`
+  - `@astrojs/prefetch`: Prefetch links for faster navigation. 
+  - `@astrojs/sitemap`: Generates a sitemap based on your pages.
+  - `@vite-pwa/astro`: PWA support for your app.
+  - `astro-compress`: Compress your HTML, CSS and JS.
+  - `astro-robots-txt`: Generates a robots.txt file.
+  - `astro-webmanifest`: Generates a web application manifest, favicon, icons and inserts appropriate html into `<head>`.
 
 ## Hexatool Code Quality Standards
 
