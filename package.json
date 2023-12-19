@@ -1,5 +1,5 @@
 {
-	"name": "@hexatool/template-astro",
+	"name": "@hexatool/template-astro-preact",
 	"version": "0.0.0",
 	"author": "Hexatool",
 	"description": "A template for Astro projects",
@@ -10,13 +10,13 @@
 		"tailwindcss",
 		"typescript"
 	],
-	"homepage": "https://github.com/hexatool/template-astro",
+	"homepage": "https://github.com/hexatool/template-astro-preact",
 	"bugs": {
-		"url": "https://github.com/hexatool/template-astro"
+		"url": "https://github.com/hexatool/template-astro-preact"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:hexatool/template-astro.git"
+		"url": "git@github.com:hexatool/template-astro-preact.git"
 	},
 	"license": "PRIVATE",
 	"private": true,
