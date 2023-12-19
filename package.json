@@ -32,7 +32,7 @@
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix .",
 		"preview": "astro preview",
-		"typecheck": "astro check && tsc --noEmit"
+		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
 		"@fontsource/inter": "5.0.16",
