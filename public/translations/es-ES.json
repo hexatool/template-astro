@@ -1,0 +1,15 @@
+{
+	"counter": {
+		"decrement": "Reducir",
+		"counter": "Contador",
+		"increment": "Aumentar"
+	},
+	"lang": {
+		"spanish": "Español",
+		"english": "Inglés",
+		"system": "Sistema"
+	},
+	"hello": {
+		"hello": "Hola mundo"
+	}
+}
