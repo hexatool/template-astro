@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/astro-template.iml" filepath="$PROJECT_DIR$/.idea/astro-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/astro-template-preact.iml" filepath="$PROJECT_DIR$/.idea/astro-template-preact.iml" />
     </modules>
   </component>
 </project>
