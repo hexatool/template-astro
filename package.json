@@ -2,13 +2,14 @@
 	"name": "@hexatool/template-astro-preact",
 	"version": "0.0.0",
 	"author": "Hexatool",
-	"description": "A template for Astro projects",
+	"description": "A template for Astro projects with Preact",
 	"keywords": [
 		"astro",
 		"eslint",
 		"prettier",
 		"tailwindcss",
-		"typescript"
+		"typescript",
+		"preact"
 	],
 	"homepage": "https://github.com/hexatool/template-astro-preact",
 	"bugs": {
