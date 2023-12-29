@@ -24,7 +24,7 @@
 - **ESLint**: for best standards and quality code.
 - **Renovate**: keep your dependencies up to date.
 
-### 🗒️ Web framework
+### 🌐 Web framework
 
 - **Preact**: A fast 3kB alternative to React with the same modern API.
 - **Nanostores**: A tiny (less than 1kb) state manager inspired by Redux. It comes with the following plugins:
