@@ -47,7 +47,7 @@
 		"@astrojs/ts-plugin": "1.4.0",
 		"@hexatool/eslint-config": "2.3.0",
 		"@hexatool/tsconfig": "20.0.1",
-		"@types/bun": "1.0.0",
+		"@types/bun": "1.0.1",
 		"@vite-pwa/astro": "0.2.0",
 		"astro-compress": "2.2.8",
 		"astro-eslint-parser": "0.16.0",
