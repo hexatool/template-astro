@@ -35,7 +35,7 @@
 	},
 	"dependencies": {
 		"@fontsource/inter": "5.0.16",
-		"astro": "4.0.8",
+		"astro": "4.3.5",
 		"astro-seo": "0.8.0",
 		"lucide-astro": "0.303.0"
 	},
