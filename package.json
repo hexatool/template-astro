@@ -40,7 +40,7 @@
 		"lucide-astro": "0.323.0"
 	},
 	"devDependencies": {
-		"@astrojs/check": "0.4.1",
+		"@astrojs/check": "0.5.1",
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.0.5",
 		"@astrojs/tailwind": "5.1.0",
