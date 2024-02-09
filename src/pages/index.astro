@@ -1,13 +1,21 @@
 ---
 import {Star} from 'lucide-astro'
 
+import Counter from '../features/counter';
+import Languages from '../features/languages';
+import MaxCounter from '../features/max-counter';
+import Title from '../features/title';
 import Layout from '../layouts/layout.astro';
 ---
 
 <Layout className='h-screen grid items-center'>
 	<main class='flex flex-col items-center justify-center'>
-		<h1 class='text-2xl text-center'>Hello world 👋🏼</h1>
+		<Title client:only="preact" />
 
 		<Star class='mx-auto'/>
+
+		<Counter client:only="preact" />
+		<MaxCounter client:only="preact" />
+		<Languages client:only="preact" />
 	</main>
 </Layout>

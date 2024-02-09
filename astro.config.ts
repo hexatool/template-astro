@@ -1,3 +1,4 @@
+import preact from '@astrojs/preact';
 import prefetch from '@astrojs/prefetch';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
@@ -11,6 +12,7 @@ export default defineConfig({
 	// TODO: Replace me
 	site: 'https://astro-template.com',
 	integrations: [
+		preact(),
 		sitemap(),
 		robotsTxt(),
 		webmanifest({

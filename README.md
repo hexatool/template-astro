@@ -1,9 +1,9 @@
 <h1 align="center">
-  astro-template
+  astro-template-preact
 </h1>
 
 <p align="center">
-  Opinionated GitHub template for astro projects.
+  Opinionated GitHub template for astro projects with Preact integration.
 </p>
 
 ## How to use
@@ -23,6 +23,14 @@
 - **TypeScript**: configured by default. Here we don't play with JavaScript.
 - **ESLint**: for best standards and quality code.
 - **Renovate**: keep your dependencies up to date.
+
+### 🌐 Web framework
+
+- **Preact**: A fast 3kB alternative to React with the same modern API.
+- **Nanostores**: A tiny (less than 1kb) state manager inspired by Redux. It comes with the following plugins:
+  - `@nanostores/i18n`: Internationalization plugin.
+  - `@nanostores/persistent`: Persist your state in localStorage.
+  - `@nanostores/preact`: Preact bindings.
 
 ### 🎨 Styling
 
