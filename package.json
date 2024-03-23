@@ -43,7 +43,7 @@
 		"astro-seo": "0.8.0",
 		"lucide-astro": "0.303.0",
 		"nanostores": "0.9.5",
-		"preact": "10.19.4"
+		"preact": "10.20.1"
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.5.6",
