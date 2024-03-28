@@ -56,7 +56,7 @@
 		"@hexatool/tsconfig": "20.0.1",
 		"@types/bun": "1.0.7",
 		"@vite-pwa/astro": "0.3.0",
-		"astro-compress": "2.2.10",
+		"astro-compress": "2.2.20",
 		"astro-eslint-parser": "0.16.3",
 		"astro-robots-txt": "1.0.0",
 		"astro-webmanifest": "1.0.0",
